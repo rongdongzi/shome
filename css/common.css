@@ -1459,10 +1459,16 @@ body {
 
 .r-coupon-header{
     height: 40px;
-    border-bottom:1px solid #ccc;
+    /* border-bottom:1px solid #ccc; */
+}
+.r-coupon-header ul{
+    overflow: hidden;
+    border-bottom:1px solid #ccc; 
 }
 .r-coupon-header ul li{
     float: left;
+    box-sizing: border-box;
+    padding: 0 20px;
     width: 33.3%;
     line-height: 40px;
     color: #262626;
@@ -1476,6 +1482,7 @@ body {
 .r-coupon-header ul li a{
     color: #262626;
     font-weight: 700;
+    font-size: 13px;
 }
 
 .r-cp-c{
