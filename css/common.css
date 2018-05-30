@@ -388,7 +388,6 @@ footer {
     border-top: 1px solid #f8f8f8;
     background: #f8f8f8;
     z-index: 100;
-    /* max-width: 640px; */
 }
 
 .r_footer {
@@ -944,7 +943,6 @@ footer {
 }
 
 .w-classify {
-    /* padding: 0 0.25rem; */
     background-color: #fff;
     padding-top: 2.5rem;
     padding-bottom: 0.25rem;
@@ -966,7 +964,6 @@ footer {
 }
 
 .w-classify-two li a p {
-    /* margin-top: 0.1rem; */
     margin-bottom: 0;
     color: #626262;
 }
@@ -1029,70 +1026,8 @@ footer {
     color: #902126 !important;
 }
 
-/* .two-icon-hb {
-    background: url('../images/imgs/tab/红包.png') no-repeat;
-    width: 30px;
-    height: 26px;
-    background-size: 30px 26px;
-    display: block;
-    margin: 0 auto;
-}
 
-.two-icon-hq {
-    background: url('../images/imgs/tab/优惠券(1)-01.png') no-repeat;
-    width: 30px;
-    height: 26px;
-    background-size: 30px 26px;
-    display: block;
-    margin: 0 auto;
-}
 
-.two-icon-sc {
-    background: url('../images/imgs/tab/商城.png') no-repeat;
-    width: 30px;
-    height: 26px;
-    background-size: 30px 26px;
-    display: block;
-    margin: 0 auto;
-}
-
-.two-icon-rd {
-    background: url('../images/imgs/tab/热点.png') no-repeat;
-    width: 30px;
-    height: 26px;
-    background-size: 30px 26px;
-    display: block;
-    margin: 0 auto;
-}
-
-.two-icon-hy {
-    background: url('../images/imgs/tab/会员.png') no-repeat;
-    width: 23px;
-    height: 26px;
-    background-size: 23px 25px;
-    display: block;
-    margin: 0 auto;
-}
-
-.two-icon-hb:hover {
-    background: url('../images/imgs/tab/红包2.png') no-repeat;
-}
-
-.two-icon-hq:hover {
-    background: url('../images/imgs/tab/优惠券1.png') no-repeat;
-}
-
-.two-icon-sc:hover {
-    background: url('../images/imgs/tab/商城2.png') no-repeat;
-}
-
-.two-icon-rd:hover {
-    background: url('../images/imgs/tab/热点拷贝.png') no-repeat;
-}
-
-.two-icon-hy:hover {
-    background: url('../images/imgs/tab/会员2.png') no-repeat;
-} */
 
 /* 优惠券 */
 
@@ -1534,6 +1469,10 @@ body {
     font-size: 10px;
     text-align: center
 }
+.r-coupon-header ul .active a{
+    display: block;
+    border-bottom: 1px solid #b8403b;
+}
 .r-coupon-header ul li a{
     color: #262626;
     font-weight: 700;
@@ -1573,7 +1512,7 @@ body {
 .r-cp-c-center-box{
     background-color: #fffbec;
     /* margin-top: 10px; */
-    padding: .5rem 0 0 0;
+    padding: .5rem 0 4px 0;
 }
 .r-cp-c-center-box h3{
     font-size: 15px;
@@ -1583,7 +1522,8 @@ body {
 .r-cp-c-center-box p{
     color: #808080;
     font-size: 10px;
-    padding-top: 8px;
+    /* padding-top: 8px; */
+    padding-top: 4px;
 }
 .r-cp-c-right-a{
     position: absolute;
