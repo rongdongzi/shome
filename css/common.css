@@ -251,7 +251,7 @@ i {
 }
 
 .r-search-left a {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .r-search-left {
@@ -549,6 +549,7 @@ marquee {
 
 .r-search-left .icon-xiangxia {
     padding-right: 15px;
+    top:2px;
 }
 
 .r-price-tab p {
@@ -1522,23 +1523,25 @@ body {
 
 
 .r-coupon-header{
-    height: 30px;
+    height: 40px;
     border-bottom:1px solid #ccc;
 }
 .r-coupon-header ul li{
     float: left;
     width: 33.3%;
-    line-height: 30px;
+    line-height: 40px;
     color: #262626;
     font-size: 10px;
     text-align: center
 }
 .r-coupon-header ul li a{
     color: #262626;
+    font-weight: 700;
 }
 
 .r-cp-c{
     padding: .7rem;
+    padding-bottom: 3rem;
 }
 .r-cp-c ul li{
     border: solid 1px #e8c2c0;
@@ -1558,19 +1561,19 @@ body {
     margin-left: 10px;
 }
 .r-cp-c-center h5{
-    font-size: 12px;
+    font-size: 14px;
     color: #262626;
     font-weight: 700;
 }
 .r-cp-c-center p{
     font-size: 10px;
     color: #ccc;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 .r-cp-c-center-box{
     background-color: #fffbec;
     /* margin-top: 10px; */
-    padding: .3rem 0;
+    padding: .5rem 0 0 0;
 }
 .r-cp-c-center-box h3{
     font-size: 15px;
@@ -1580,14 +1583,17 @@ body {
 .r-cp-c-center-box p{
     color: #808080;
     font-size: 10px;
-    padding-top: 5px;
+    padding-top: 8px;
 }
 .r-cp-c-right-a{
     position: absolute;
+    width: 50px;
+    text-align: center;
+    white-space: normal;
     bottom: 25px;
     border-radius: 5px;
     padding: 1px 10px;
-    /* right:5px; */
+    right:0px;
     font-size: 10px;
     background-color: #ff1e36;
     color:#fff;

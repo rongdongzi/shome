@@ -21,13 +21,13 @@
         <div class="r-coupon-header">
             <ul>
                 <li class="active">
-                    <a href="">未使用(2)</a>
+                    <a href="#">未使用(2)</a>
                 </li>
                 <li>
-                    <a href="">已使用(0)</a>
+                    <a href="#">已使用(0)</a>
                 </li>
                 <li>
-                    <a href="">已过期(0)</a>
+                    <a href="#">已过期(0)</a>
                 </li>
             </ul>
         </div>
@@ -213,5 +213,23 @@
 
     </div>
 </body>
+
+<script>
+    window.onload=function(){
+        var c=document.querySelector(".r-coupon-header").querySelectorAll("li")
+        console.log(c)
+        for(var i=0;i<c.length;i++){
+            c[i].index=i;
+            c[i].onclick=function(){
+                for(var i=0;i<c.length;i++){
+                    c[i].className=""
+                }
+                c[this.index].className="active"
+            }
+        
+        }
+    }
+
+</script>
 
 </html>
