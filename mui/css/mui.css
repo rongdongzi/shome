@@ -2257,7 +2257,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 }
 .mui-table-view-cell:after
 {
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     bottom: 0;
     left: 15px;
@@ -3539,10 +3539,10 @@ select:focus
     border-bottom: 2px solid #007aff;
     background: none;
 }
-.mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-progress-bar
+/* .mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-progress-bar
 {
     background-color: #007aff;
-}
+} */
 
 .mui-segmented-control-positive
 {

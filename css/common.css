@@ -1592,7 +1592,7 @@ body {
     font-weight: 700;
 }
 .r-cp-c-bottom a{
-    color: #999999;
+    color: #999999!important;
 }
 .r-cp-c-bottom span{
     color: #595959;
