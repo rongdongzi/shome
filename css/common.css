@@ -440,10 +440,40 @@ footer {
     padding-top: 4px;
 }
 
+.mui-slider-indicator.mui-segmented-control{
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
+    top:0;
+}
+.mui-slider-progress-bar{
+    height: 0;
+}
+
+.mui-r-cp{
+    margin-top: 40px;
+}
 .r-integral ul li a p {
     color: #3f3f3f;
     font-size: 10px;
     white-space: nowrap;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+    color: #262626;
+    font-weight: 700;
+    font-size: 13px;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+    color: #b8403b;
+    border-bottom: 2px solid #b8403b!important;
+}; 
+.mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-progress-bar
+{
+    background-color: #b8403b;
+}
+
+.mui-slider-progress-bar{
+    background-color: #b8403b;
 }
 
 .r-integral-h img {
@@ -1137,6 +1167,10 @@ footer {
 .w-orangeImg {
     background: url('../images/w-imgs/coupons/bjimg3.png') no-repeat center center;
 }
+.w-yellowImg p:first-child,
+.w-orangeImg p:first-child{
+    font-weight: 600;
+}
 
 .w-couponInfoItemTop .w-topRight p {
     color: #fff;
@@ -1455,7 +1489,9 @@ body {
     left: 5.5rem;
     top: 3.7rem;
 }
-
+.r-cp-c-left img{
+    width: 95px!important;    
+}
 
 .r-coupon-header{
     height: 40px;
@@ -1463,17 +1499,17 @@ body {
 }
 .r-coupon-header ul{
     overflow: hidden;
-    border-bottom:1px solid #ccc; 
+    /* border-bottom:1px solid #ccc;  */
 }
 .r-coupon-header ul li{
-    float: left;
+    /* float: left; */
     box-sizing: border-box;
     padding: 0 20px;
-    width: 33.3%;
-    line-height: 40px;
+    /* width: 33.3%; */
+    /* line-height: 40px; */
     color: #262626;
     font-size: 10px;
-    text-align: center
+    /* text-align: center */
 }
 .r-coupon-header ul .active a{
     display: block;
@@ -1488,6 +1524,7 @@ body {
 .r-cp-c{
     padding: .7rem;
     padding-bottom: 3rem;
+    background-color: #fff;
 }
 .r-cp-c ul li{
     border: solid 1px #e8c2c0;
@@ -1543,7 +1580,7 @@ body {
     right:0px;
     font-size: 10px;
     background-color: #ff1e36;
-    color:#fff;
+    color:#fff!important;
 }
 .r-cp-c-bottom{
     position: absolute;
@@ -1647,6 +1684,9 @@ body {
     }
     .r-cp-c-center-box p{
         padding-top: 0;
+    }
+    .r-cp-c-left img{
+        width: 70px!important;    
     }
 }
 
