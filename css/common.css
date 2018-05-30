@@ -1689,6 +1689,18 @@ body {
         right: 20px;
         bottom: 13px;
     }
+    .r-cp-c-left img{
+        width: 70px;
+    }
+    .r-cp-c-center h5{
+        font-size: 11px;
+    }
+    .r-cp-c-center-box{
+        padding: 0;
+    }
+    .r-cp-c-center-box p{
+        padding-top: 0;
+    }
 }
 
 @media screen and (min-width: 414px) {
